@@ -1,0 +1,215 @@
+body
+{
+    background: url('images/main_Background.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    font-family:Poppins, sans-serif;
+}
+.Body_Title 
+{
+    color: rgb(255, 255, 255);
+}
+.Body_Title h1
+{
+    font-size:3rem;
+    font-weight:700;
+}
+.Body_Title p
+{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.Title h2
+{
+    color:rgb(30, 31, 35);
+    font-size:1.5rem;
+    line-height:1.5rem;
+    font-weight: 700;
+}
+.Title .underline
+{
+    border: solid 1px#bbb;
+    width: 160px !important;
+    border-width: 0.01rem;
+    margin:0.8rem 0rem 1rem 0rem ;
+}
+.Title p
+{
+    font-weight: 300;
+    font-size: 0.8rem;
+    letter-spacing: 0.25rem;
+    color: #bbb;
+}
+.Sec2 p
+{
+    color:rgba(0, 0, 0, 0.5);
+    font-size:0.9rem;
+    font-weight: 300;
+    line-height:1.625rem;
+}
+.Sec3 .Title h2
+{
+    color: white;
+}
+.bg-Semiblack
+{
+    background: #1e1f23;
+}
+.bg-black
+{
+    background: #121315;
+}
+.Imgs_container
+{
+    overflow: hidden;
+}
+.Desc h2
+{
+    color: #1e1f23;
+    font-size: 1.35rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+.Desc p
+{
+    color:rgba(0, 0, 0, 0.5);
+    font-size:0.9rem;
+    font-weight: 300;
+    line-height:1.625rem;
+}
+.Curabitur h2
+{
+    color: #bbb !important;
+}
+.logos
+{
+    font-size: 1.3rem ;
+    color: #bbb !important;
+}
+.copyRight
+{
+    color: #bbb;
+    font-size: 0.9rem;
+}
+@media (max-width:992px)
+{
+    .Body_Padding
+    {
+        padding:2rem 1rem !important;
+    }
+    .container_Padding
+    {
+        padding: 0rem !important;
+    }
+    .Body_Title h1
+    {
+        font-size:2rem;
+    }
+    .Body_Title p
+    {
+        font-size: 0.9rem;
+    }
+
+
+    .Title h2
+{
+    font-size:1.4rem;
+    line-height:1.4rem;
+    padding-left:1rem !important;
+    padding-right:1rem !important;
+}
+.Title .underline
+{
+    border-width: 0.04rem;
+}
+.Title p
+{
+    padding-left:1rem !important;
+    padding-right:1rem !important;
+    font-size: 0.8rem;
+}
+.Sec2
+{
+    padding:2rem 2rem 2rem 1rem !important;
+    margin-bottom: 2rem !important;
+}
+.Sec2 p
+{
+    font-size: 0.9rem;
+    line-height:1.6rem;
+    text-align: left;
+}
+.NextImgsBG
+{
+    background-color: transparent !important;
+    margin-top: 2rem !important;
+
+}
+.NextImgsP
+{
+    padding-bottom: 0rem !important;
+}
+.DescContainer
+{
+    padding:2rem 2rem 1rem 2rem !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    text-align: left !important;
+}
+    .PartitionImgDesc
+    {
+        margin-bottom: 2rem !important;
+    }
+.Desc h2
+{
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+.Desc p
+{
+    font-size:0.8rem;
+    line-height:1.3rem;
+}
+p
+{
+    padding-right: 3rem !important;
+}
+
+}
+@media(max-width:490px)
+{
+    .Body_Padding
+    {
+        padding:2rem 0.5rem !important;
+    }
+    .Title h2
+    {
+        font-size:1.1rem !important;
+        line-height:1.1rem !important;
+    }
+    .Title p
+    {
+        font-size: 0.7rem !important;
+    }
+        .Sec2 p
+    {
+        font-size: 0.8rem;
+    }
+    .Sec1
+    {
+        padding:1rem !important
+    }
+    .Sec3
+    {
+        padding:0rem !important;
+    }
+    .logos
+    {
+        padding:1rem 0rem !important;
+        font-size: 1rem !important;
+    }
+    .copyRight
+{
+    font-size: 0.7rem;
+}
+}
